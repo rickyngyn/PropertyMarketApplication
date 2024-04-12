@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Panels.PropertyManagement">
+  <grid id="27dc6" binding="propertyManagement" layout-manager="GridLayoutManager" row-count="13" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1116" height="760"/>
+    </constraints>
+    <properties>
+      <background color="-8212570"/>
+      <minimumSize width="0" height="0"/>
+      <preferredSize width="600" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="7b84d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Eras Demi ITC" size="48"/>
+          <foreground color="-16777216"/>
+          <text value="Property Management"/>
+        </properties>
+      </component>
+      <component id="52094" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code Medium" size="24"/>
+          <foreground color="-16777216"/>
+          <text value="Type: "/>
+        </properties>
+      </component>
+      <component id="e8c25" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-722433"/>
+          <foreground color="-16777216"/>
+          <model>
+            <item value="Select Property Type"/>
+            <item value="Industrial"/>
+            <item value="Residential"/>
+            <item value="Commercial"/>
+            <item value="Land"/>
+            <item value="Other"/>
+          </model>
+        </properties>
+      </component>
+      <component id="9b0af" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code Medium" size="24"/>
+          <foreground color="-16777216"/>
+          <text value="Square Feet:"/>
+        </properties>
+      </component>
+      <component id="aec62" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code Medium" size="24"/>
+          <foreground color="-16777216"/>
+          <text value="Owner ID:"/>
+        </properties>
+      </component>
+      <component id="edcda" class="javax.swing.JTextField" binding="ownerName">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-722433"/>
+        </properties>
+      </component>
+      <component id="58c2b" class="javax.swing.JTextField" binding="squareFeet">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-722433"/>
+        </properties>
+      </component>
+      <component id="d6a71" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code Medium" size="24"/>
+          <foreground color="-16777216"/>
+          <text value="Price ($):"/>
+        </properties>
+      </component>
+      <component id="4ec30" class="javax.swing.JTextField" binding="priceText">
+        <constraints>
+          <grid row="6" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-722433"/>
+        </properties>
+      </component>
+      <component id="6215a" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code Medium" size="24"/>
+          <foreground color="-16777216"/>
+          <text value="Address:"/>
+        </properties>
+      </component>
+      <component id="e8d21" class="javax.swing.JTextField" binding="addressText">
+        <constraints>
+          <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-722433"/>
+        </properties>
+      </component>
+      <component id="d943e" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code Medium" size="24"/>
+          <foreground color="-16777216"/>
+          <text value="Bedrooms:"/>
+        </properties>
+      </component>
+      <component id="55983" class="javax.swing.JTextField" binding="bedroomsText">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-722433"/>
+        </properties>
+      </component>
+      <component id="57841" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code Medium" size="24"/>
+          <foreground color="-16777216"/>
+          <text value="Bathrooms:"/>
+        </properties>
+      </component>
+      <component id="ed71a" class="javax.swing.JTextField" binding="bathroomsText">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-722433"/>
+        </properties>
+      </component>
+      <component id="1e31b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code Medium" size="24"/>
+          <foreground color="-16777216"/>
+          <text value="Description:"/>
+        </properties>
+      </component>
+      <component id="31a10" class="javax.swing.JTextField" binding="description">
+        <constraints>
+          <grid row="5" column="5" row-span="3" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-722433"/>
+        </properties>
+      </component>
+      <component id="b9d84" class="javax.swing.JButton" binding="removeButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Remove"/>
+        </properties>
+      </component>
+      <component id="714d" class="javax.swing.JButton" binding="editButton" default-binding="true">
+        <constraints>
+          <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Edit"/>
+        </properties>
+      </component>
+      <component id="9faf5" class="javax.swing.JButton" binding="addButton1" default-binding="true">
+        <constraints>
+          <grid row="8" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add"/>
+        </properties>
+      </component>
+      <scrollpane id="7aeca">
+        <constraints>
+          <grid row="8" column="1" row-span="4" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-722433"/>
+          <foreground color="-722433"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="36d13" class="javax.swing.JTable" binding="propertyTable">
+            <constraints/>
+            <properties>
+              <background color="-722433"/>
+              <gridColor color="-14803166"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <vspacer id="79209">
+        <constraints>
+          <grid row="12" column="5" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="95d30">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="c0226" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code Medium" size="24"/>
+          <foreground color="-16777216"/>
+          <text value="ID:"/>
+        </properties>
+      </component>
+      <component id="d53f4" class="javax.swing.JTextField" binding="idText">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-722433"/>
+        </properties>
+      </component>
+      <component id="f9ba9" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Fira Code Medium" size="24"/>
+          <foreground color="-16777216"/>
+          <text value="Search: "/>
+        </properties>
+      </component>
+      <component id="eca85" class="javax.swing.JTextField" binding="searchText">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-722433"/>
+        </properties>
+      </component>
+      <component id="aef4f" class="javax.swing.JButton" binding="imageButton">
+        <constraints>
+          <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Browse Images"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
