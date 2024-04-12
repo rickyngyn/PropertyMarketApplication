@@ -1,3 +1,4 @@
+#PropertyMarketApplication
 This is a Java based application which utilizes Java Swing UI (Intellij) and MySQL Workbench to create a functional real estate-like app.
 
 The application allows users:
